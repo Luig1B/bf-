@@ -2,7 +2,7 @@
 ## Addictions:
 * `{` Starts a function;
 * `}` Ends a function;
-* `#` Call a function;
+* `#` Call a function.
 ## Functionality
 This doesn't make the language functional since there isn't arguments, return, etc. It's just a subroutine for your code to follow.
 ## Making a function
