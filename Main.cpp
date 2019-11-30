@@ -26,7 +26,7 @@ int main(int argc, char** argv)
 	}
 
 	unsigned char mem[256];
-	unsigned char funcs[256];
+	int funcs[256];
 	for (int i = 0; i < 256; i++) {
 		mem[i] = 0;
 		funcs[i] = 0;
@@ -96,6 +96,7 @@ int main(int argc, char** argv)
 			} break;
 			case '#':
 			{
+				if (mem[ptr] == 0) break;
 				int dest = funcs[mem[ptr]];
 				if (dest == 0) {
 					std::cout << "\nTrying to acess a null function" << std::endl;
