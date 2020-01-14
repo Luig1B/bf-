@@ -2,9 +2,9 @@
 ## Addictions:
 * `{` Starts a function;
 * `}` Ends a function;
-* `#` Call a function.
+* `#` Calls a function.
 ## Functionality
-This doesn't make the language functional since there's no arguments, return, etc. It's just a subroutine for your code to follow.
+This doesn't make the language functional. It's just a subroutine for your code to follow.
 ## Making a function
 Functions are identified with "IDs" which are the value of the current cell when a `{` is read. See the example:
 ```bf
